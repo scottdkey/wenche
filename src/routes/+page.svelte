@@ -104,14 +104,6 @@
 		margin: 0px;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		height: 100%;
-		width: 100%;
-		background: linear-gradient(
-			156deg,
-			rgba(14, 12, 40, 1) 0%,
-			rgba(68, 120, 81, 1) 33%,
-			rgba(0, 193, 255, 0.9081632653061225) 100%
-		);
 	}
 	.header {
 		margin-top: 30px;

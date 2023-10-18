@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+	lang="en"
+	style="
+		height: 100%;
+		width: 100%;
+		margin: 0; /* Remove default margin */
+		padding: 0; /* Remove default padding */
+	"
+>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -7,8 +15,27 @@
 	</head>
 	<body
 		data-sveltekit-preload-data="hover"
-		style="margin: 0; padding: 0; display: contents; height: 100%; width: 100%"
+		style="
+			height: 100%;
+			width: 100%;
+			margin: 0; /* Remove default margin */
+			padding: 0; /* Remove default padding */
+		"
 	>
-		<div>%sveltekit.body%</div>
+		<div
+			style="
+				height: 100%;
+				width: 100%;
+				background: linear-gradient(
+					156deg,
+					rgba(14, 12, 40, 1) 0%,
+					rgba(68, 120, 81, 1) 33%,
+					rgba(0, 193, 255, 0.9081632653061225) 100%
+				);
+				overflow: auto;
+			"
+		>
+			%sveltekit.body%
+		</div>
 	</body>
 </html>
