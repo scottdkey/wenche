@@ -66,6 +66,7 @@
 			mars/april 2023 ble hun svindlet av tre iranske menn, som påsto de trengte hjelp til å få sin
 			mor ut av Iran.
 		</p>
+		<br />
 		<p>
 			Som alltid var Wenche godhjertet og ville hjelpe, selv om disse mennene til tider opptredte
 			truende. To av dem skaffet seg blandt annet adgang til leiligheten hennes, og presset henne
@@ -73,6 +74,7 @@
 			– 45.000 Nok. Nå står Wenche i fare for å miste leiligheten sin, hvis hun ikke klarer
 			nedbetalingene.
 		</p>
+		<br />
 		<p>
 			Derfor trenger vi DIN hjelp – uansett hvor mye eller lite du har mulighet til å gi. Alle
 			monner drar, og målet vårt er å overraske Wenche – derfor er det veldig viktig at ingen nevner
@@ -94,13 +96,16 @@
 </div>
 
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
 	.main {
-		height: 100vh;
-		width: 100vw;
-		margin: unset;
-		padding: unset;
-		position: absolute;
-		background: rgb(14, 12, 40);
+		margin: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		height: 100%;
+		width: 100%;
 		background: linear-gradient(
 			156deg,
 			rgba(14, 12, 40, 1) 0%,
@@ -109,6 +114,8 @@
 		);
 	}
 	.header {
+		margin-top: 30px;
+		margin-bottom: 30px;
 		background-color: rgba(250, 235, 215, 0.553);
 		width: fit-content;
 		padding-left: 5px;
